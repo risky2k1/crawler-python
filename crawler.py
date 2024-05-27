@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 
-url = 'https://www.formula1.com/en/results.html/2024/drivers.html'
+url_driver = 'https://www.formula1.com/en/results.html/2024/drivers.html'
 response = requests.get(url)
 
 if response.status_code == 200:
